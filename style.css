@@ -1,0 +1,229 @@
+/*selector universal-receteo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /*importo fuente de google font-family: 'Kanit', sans-serif;*/
+ @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+/*HEADER*/
+header {
+    background-color: rgb(238, 177, 157);
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 26vh;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*logo*/
+header img {
+    border-radius: 50%;
+    border: solid 3px darkslategray;
+    width: 9%;
+}
+
+.logo {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+/*menu*/
+.boton a {
+    background-color: rgb(243, 217, 234);
+    text-decoration: none;
+    color: darkslategray;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    padding: 5px 5px;
+    display: block;
+    border: solid 1px black;
+}
+
+.boton a:hover{
+    background-color: antiquewhite;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu >li{
+    float: left;
+    list-style: none;
+    margin: 0 2px;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 60%;
+}*/
+
+
+
+/*footer*/
+ #contacto{
+    
+    width: 100vw;
+    height: 8vh;
+    padding: 1% 5%;
+}
+
+.contenido{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.contenido iframe{
+    width: 10vw;
+    height: 7vh;
+    object-fit: cover;
+}
+
+.facebook, .instagram{
+    display: block;
+}
+
+/*INICIO*/
+/*carrusel*/
+.carrusel_entero{
+    background-color: rgb(216, 207, 186);
+    display: flex;
+    justify-content: center
+}
+
+.carrusel{
+    margin: 0 auto;
+    display: inline;
+    justify-content: center
+}
+
+.foto{
+    width: auto;
+    height: 50vh;
+    object-fit: cover;
+}
+
+/*titulo*/
+h1{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: darkslategray;
+    padding: 2% 0%;
+    margin: 2% 0%;
+}
+
+/*productos*/
+.productosvideos{
+    display: flex;
+    justify-content: center
+}
+
+.video{
+    margin: 0 auto;
+    display: inline;
+    justify-content: center
+}
+
+.videoz{
+    width: 20vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+section ul li p{
+    font-family: 'Kanit', sans-serif;
+    padding: 15% 0%;
+    padding-top: 0%;
+}
+
+
+
+
+/*COMO COMPRAR background-color: rgb(233, 171, 233);*/
+.como__comprar{
+    padding: 2% 30%;
+    min-height: 100vh;
+    background-color: rgb(216, 207, 186);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/*QUIENES SOMOS*/
+.quienes__somos{
+    padding: 2% 30%;
+    min-height: 100vh;
+    background-color: rgb(216, 207, 186);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/*PREGUNTAS FRECUENTES*/
+.preguntas__frecuentes{
+    padding: 2% 30%;
+    min-height: 100vh;
+    background-color: rgb(216, 207, 186);
+    font-family: 'Kanit', sans-serif;
+}
+
+/*IMPORTANTE ME GUSTARIA QUE EN WINTER Y SALE LAS FOTOS SEAN TARJETAS GIRATORIAS QUE AL PASAR EL CURSOR LA IMAGEN GIRE Y APAREZCA UN TEXTO DESCRIBIENDO EL PRODUCTO Y SU PRECIO PERO CASI SEGURA QUE AUN NO LO VIMOS Y NO LOGRE ENCONTRAR LA MANERA POR MI CUENTA AUN */
+
+/*WINTER*/
+.winter{
+    padding: 2% 3%;
+    background-color: rgb(216, 207, 186);
+    min-height: 100vh;
+}
+
+.galeria .columna img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.columna{
+    flex: 25%;
+    padding: 5px;
+}
+
+.galeria{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 5px;
+}
+
+/*sale*/
+.sale{
+    background-color: rgb(216, 207, 186);
+    min-height: 100vh;
+    padding: 2% 3%;
+}
+
+.galeria2 .columna2 img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.columna2{
+    flex: 25%;
+    padding: 5px;
+}
+
+.galeria2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 5px;
+}
